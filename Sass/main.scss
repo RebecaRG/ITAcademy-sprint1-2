@@ -1,0 +1,194 @@
+//color
+$primary: #5265E1;
+$secondary: #FA5959;
+$success:   #9d9da5; //texto párrafos
+$info: #67686d; //color letras botón "Get on Firefox"
+$warning:#242946;
+
+//font-size
+//h1
+$h1-font-size:  3rem;
+//navbar-link
+$nav-link-font-size: 0.83rem;
+//btn
+$input-btn-font-size: 0.83rem;
+$btn-white-space: nowrap;//para que no se ajuste al texto 
+
+//spacers
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .5,
+  2: $spacer,
+  3: $spacer * 1.5,
+  4: $spacer * 2.15,
+  5: $spacer * 3,
+  6: $spacer * 5,
+  7: $spacer * 7.5,
+  8: $spacer * 9,
+  9: $spacer * 10,
+  extra: $spacer * .75
+);
+
+// Container padding
+$grid-gutter-width:  1rem;
+
+//tabs
+$nav-link-padding-y: 1.5rem;
+$nav-link-padding-x: 1.5rem;
+$nav-link-font-size: 1rem;
+$nav-link-color:  $info;
+$nav-link-hover-color:  $secondary;
+$nav-link-transition:   none;
+
+//nav-tabs
+$nav-tabs-border-color:  #dee2e6;
+$nav-tabs-border-width:  0.1rem;
+$nav-tabs-border-radius: null;
+$nav-tabs-link-hover-border-color: #00FF0000; //color transparente
+$nav-tabs-link-active-border-color: rgb(28, 45, 168) rgb(8, 145, 33) red;
+
+//navbar
+$navbar-light-toggler-icon-bg: url("../images/icon-hamburger.svg");
+$navbar-light-toggler-border-color: none;
+$navbar-toggler-focus-width: none;
+$navbar-dark-color: white;
+
+//mancha azul
+.manchader{
+  z-index: -1;
+  width: 120%;
+  height: 70%;
+  top: 30%;
+  left: 30%;
+}
+
+.manchaizq{
+  z-index: -1;
+  width: 120%;
+  height: 95%;
+  top: 20%;
+  left: -40%;
+
+}
+
+//linea inferior gris
+.linea-inferior{
+  border-bottom: 1px solid #dee2e6;
+}
+
+//linea roja inferior Simple Bookmarking
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  border: none;
+  border-color: unset;
+  border-bottom: 0.25rem solid $secondary;
+}
+
+//quitar padding y margin izquierdo
+.sinpadmarizq {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.sinpadmarder {
+  right: 0;
+}
+
+//quitar padding y margin
+.sinpadmar {
+  padding: 0;
+  margin: 0;
+}
+
+//cards
+//sombra card-sin parte superior
+$box-shadow-sm: 0 .5rem .5rem rgba($primary, .15) !default;
+
+//tamaño letra, tamaño 7 añadido
+$font-sizes: (
+  1: 2.5rem,
+  2: 2rem,
+  3: 1.75rem,
+  4: 1.5rem,
+  5: 1.25rem,
+  6: 1rem,
+  7: 0.9rem,
+  8: 0.75rem
+) ;
+
+//FAQ(accordion)
+$accordion-padding-x: 0rem;
+$accordion-icon-width: 1.1rem;
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $secondary;
+$accordion-button-focus-border-color:   none;
+$accordion-button-focus-box-shadow:   none;
+$accordion-button-active-bg: none;
+$accordion-button-active-color: none;
+$accordion-button-icon:  url("../images/icon-arrow.svg");
+$accordion-button-active-icon: url("../images/icon-secondary.svg");
+
+//interlineado texto accordion-body
+.interlineado{
+  line-height: 2rem;
+}
+
+//linea superior gris
+.linea-superior{
+  border-top: 1px solid #dee2e6;
+}
+
+//footer
+//espacio entre letras
+.space{
+  letter-spacing: 0.25rem;
+}
+
+//forms
+//formato del texto de placeholder
+$input-placeholder-color: #c3c3c7b1;
+//icono del mensaje formato inváido 
+$form-feedback-icon-invalid: url("../images/icon-error.svg");
+
+//borde inválido
+$form-invalid-border-color: $secondary;
+
+//hovers
+$navbar-light-hover-color: $secondary;
+$navbar-dark-hover-color: $secondary;
+
+button.btn1{
+  color: white;
+}
+button.btn1:hover {
+  background-color: white;
+  color: $secondary;
+  border-color: $secondary;
+}
+
+button.btn2:hover{
+  background-color: white;
+  color: $primary;
+  border-color: $primary;
+}
+
+button.btn3:hover{
+  border-color: $info;
+}
+
+.rrss{
+  fill: #fff;
+}
+.rrss:hover{
+  fill: $secondary;
+}
+
+.accordion-button:hover{
+  color: $secondary;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
