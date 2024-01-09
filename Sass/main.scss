@@ -1,3 +1,8 @@
+html, body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
 //color
 $primary: #5265E1;
 $secondary: #FA5959;
@@ -35,7 +40,7 @@ $grid-gutter-width:  1rem;
 
 //tabs
 $nav-link-padding-y: 1.5rem;
-$nav-link-padding-x: 1.5rem;
+$nav-link-padding-x: 0rem;
 $nav-link-font-size: 1rem;
 $nav-link-color:  $info;
 $nav-link-hover-color:  $secondary;
@@ -54,8 +59,10 @@ $navbar-light-toggler-border-color: none;
 $navbar-toggler-focus-width: none;
 $navbar-dark-color: white;
 
+
 //mancha azul
 .manchader{
+
   z-index: -1;
   width: 120%;
   height: 70%;
@@ -90,6 +97,7 @@ $navbar-dark-color: white;
   margin-left: 0;
 }
 
+//quitar padding derecho
 .sinpadmarder {
   right: 0;
 }

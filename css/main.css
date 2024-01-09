@@ -1,4 +1,9 @@
 @charset "UTF-8";
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .manchader {
   z-index: -1;
   width: 120%;
@@ -4099,7 +4104,7 @@ textarea.form-control-lg {
 }
 
 .nav {
-  --bs-nav-link-padding-x: 1.5rem;
+  --bs-nav-link-padding-x: 0rem;
   --bs-nav-link-padding-y: 1.5rem;
   --bs-nav-link-font-size: 1rem;
   --bs-nav-link-font-weight: ;
